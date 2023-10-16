@@ -1,5 +1,5 @@
 import Cell from "../Cell/Cell.js";
-class GridWorld {
+class GridSpace {
   cells = [];
 
   constructor(...elements) {
@@ -10,4 +10,4 @@ class GridWorld {
   }
 }
 
-export default GridWorld;
+export default GridSpace;

@@ -1,5 +1,5 @@
-import GridWorld from "./GridSpace";
-import Cell from "./Cell";
+import GridWorld from "./app/GridSpace/GridSpace.js";
+import Cell from "./app/Cell/Cell.js";
 
 const gridSize = 10;
 const gridWorld = new GridWorld(gridSize, false);
