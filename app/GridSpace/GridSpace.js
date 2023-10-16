@@ -1,5 +1,4 @@
 import Cell from "../Cell/Cell.js";
-
 class GridWorld {
   cells = [];
 
