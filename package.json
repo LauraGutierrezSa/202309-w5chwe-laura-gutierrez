@@ -1,8 +1,9 @@
 {
   "name": "w5chwe",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My take on Conway's Game of life",
+  "type": "module",
+  "main": "app/index.js",
   "scripts": {
     "test": "jest",
     "test:dev": "jest --watchAll",
