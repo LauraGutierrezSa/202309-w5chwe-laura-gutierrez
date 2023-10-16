@@ -1,0 +1,26 @@
+:root {
+  --main-color: #feffdf;
+  --second-color: #dde0ab;
+  --third-color: #97cba9;
+  --fourth-color: #668ba4;
+  --main-font: Georgia;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body,
+h1 {
+  margin: 0;
+}
+
+body {
+  background: var(--main-color);
+}
