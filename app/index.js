@@ -1,8 +1,8 @@
-import GridWorld from "./app/GridSpace/GridSpace.js";
-import Cell from "./app/Cell/Cell.js";
+import GridSpace from "./GridSpace/GridSpace";
+import Cell from "./Cell/Cell";
 
 const gridSize = 10;
-const gridWorld = new GridWorld(gridSize, false);
+const gridWorld = new GridSpace(gridSize, false);
 
 const gridContainer = document.getElementById("grid-container");
 
