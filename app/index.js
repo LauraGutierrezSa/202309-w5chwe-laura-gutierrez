@@ -1,5 +1,4 @@
 import GridSpace from "./GridSpace/GridSpace";
-import Cell from "./Cell/Cell";
 
 const gridSize = 10;
 const gridWorld = new GridSpace(gridSize, false);

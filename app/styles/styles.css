@@ -44,8 +44,11 @@ body {
 }
 
 .button {
+  margin: 1rem;
   padding: 1rem;
   background-color: var(--fourth-color);
   color: var(--second-color);
   font: var(--main-font);
+  font-style: oblique;
+  cursor: pointer;
 }
